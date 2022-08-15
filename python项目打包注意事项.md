@@ -56,6 +56,13 @@ pip install virtualenv
 
 ### 3. 在terminal中输入打包代码
 
+​	输入参数的含义:
+
+- -F 表示生成单个可执行文件
+- -w 表示去掉控制台窗口, 这在GUI界面时非常有用. 如果项目是命令行程序禁止选用
+- -p 表示自定义需要加载的类路径, 一般情况下用不到
+- -i 表示可执行文件的图标
+
 ![在这里插入图片描述](images/66a4ab9126fa4944a59818247f2411bf.png)
 
 ### 4. 完成打包
@@ -65,3 +72,4 @@ pip install virtualenv
 ![在这里插入图片描述](images/9a641cec46fb498a9dc023af50ac58e4.png)
 
 ![在这里插入图片描述](images/585f847b88b842cabea50c20f000fbf0.png)
+
